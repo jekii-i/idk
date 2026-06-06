@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday Lov!!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper" id="wrapper">
+        <div class="envelope" id="envelope">
+            <div class="flap" id="flap"></div>
+
+            <div class="seal" onclick="openLetter()">
+                <img src="star.svg" class="star-icon" alt="star">
+            </div>
+
+            <div class="label">
+                <hr>
+                <div class="for">FOR</div>
+                <hr>
+                <div class="name">Silvia</div>
+            </div>
+        </div>
+    </div>
+
+<!-- LETTER -->
+    <div class="letter" id="letter">
+        <div class="paper">
+            <div class="decoration">
+                <hr class="gold-line">
+                <span class="gold-diamond">♦</span>
+                <hr class="gold-line">
+            </div>
+
+            <h1 class="letter-title">Another Year of You</h1>
+            <div class="title-divider">
+                <span class="dot"></span>
+                <span class="diamond">♦</span>
+                <span class="dot"></span>
+            </div>
+            <p class="letter-date">07 Juni 2026</p>
+
+            <div class="salutation">
+                <h2>Dearest Silvia,</h2>
+                <div class="double-line"></div>
+            </div>
+
+            <p id="text" class="main-message"></p>
+            <p class="closing">
+                <span id="closingText"></span>
+            </p>
+
+            <div class="signature">
+                <p class="sig-name" id="signatureText"></p>
+                <div class="signature-line"></div>
+            </div>
+
+            <div class="bottom-decoration">
+                <span class="bottom-circle"></span>
+            </div>
+        </div>
+    </div>
+
+    <audio id="music" loop>
+        <source src="Mrs magic - Strawberry Guy (Instrumental - Strings Version).mp3">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
